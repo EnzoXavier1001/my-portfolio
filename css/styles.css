@@ -155,18 +155,13 @@ nav ul {
 
 /***** Section Sobre *****/
 .container.-sobre {
-    align-items: flex-start;
+    justify-content: space-between;
+    align-items: center;
     padding: 0;
 }
 
-.sobre__img {
-    padding: 30px;
-}
-
 .sobre__img img {
-    border-radius: 10px;
-    width: 350px;
-    height: 450px;
+    width: 100%;
 }
 
 .sobre__info h2 {
@@ -237,14 +232,14 @@ nav ul {
 .grid__container {
     width: 90%;
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     gap: 30px;
     max-width: 1200px;
     margin: 0 auto;
 }
 
 .img__wrapper img {
-    max-width: 100%;
+    width: 100%;
     transition: opacity 0.4s ease-in-out;
     border-radius: 10px;
 }
